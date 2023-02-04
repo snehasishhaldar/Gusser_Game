@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Guess_result">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess The Number"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvGusser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guseer Guess:"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/tvFirstPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guseer Guess:"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/tvSecondPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guseer Guess:"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/tvThirdPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guseer Guess:"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/tvUmpire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guseer Guess:"
+        android:layout_marginTop="50px"
+        android:textSize="28sp"
+        android:textColor="@color/red"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        />
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:drawableRight="@drawable/ic_baseline_home_24"
+        android:paddingRight="90px"
+        android:textColor="@color/white"
+
+        />
+
+    </LinearLayout>
